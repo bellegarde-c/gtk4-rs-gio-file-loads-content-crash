@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gtk/bug/">
+    <file compressed="true" preprocess="xml-stripblanks" alias="shortcuts.ui">resources/ui/shortcuts.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks" alias="window.ui">resources/ui/window.ui</file>
+
+    <file compressed="true">resources/css/application.css</file>
+    <file compressed="true">resources/css/footerbar.css</file>
+    <file compressed="true">resources/css/headerbar.css</file>
+    <file compressed="true">resources/css/sidebar.css</file>
+    <file compressed="true">resources/css/view.css</file>
+  </gresource>
+</gresources>

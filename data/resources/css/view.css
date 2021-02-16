@@ -1,0 +1,44 @@
+flowbox {
+    margin: 10px;
+}
+
+.banner {
+    border-style: none;
+    color: white;
+    background-image: linear-gradient(60deg, shade(@theme_selected_bg_color, 0.4) 0%, shade(@theme_selected_bg_color, 0.5) 100%);
+}
+
+.cover-frame-large {
+    border-radius: 2px;
+    border: 1px solid alpha(black, 0.2);
+    background-color: shade(@theme_bg_color, 1.5);
+    padding: 3px;
+    transition: box-shadow 250ms linear;
+/* Fix coming https://gitlab.gnome.org/GNOME/gtk/-/issues/3634 */
+    box-shadow: 1px 1px 10px 4px transparent;
+}
+
+.cover-frame-large:selected {
+    padding: 0px;
+    border: 4px solid alpha(@theme_selected_bg_color, 0.5);
+}
+
+flowboxchild:hover .cover-frame-large {
+    opacity: 0.9;
+    box-shadow: 1px 1px 10px 4px alpha(@theme_selected_bg_color, 0.5);
+}
+
+.artist-frame {
+    border-radius: 50%;
+    border: 1px solid alpha(black, 0.2);
+    background-color: shade(@theme_bg_color, 1.5);
+    transition: box-shadow 250ms linear;
+/* Fix coming https://gitlab.gnome.org/GNOME/gtk/-/issues/3634 */
+    box-shadow: 1px 1px 10px 4px transparent;
+}
+
+flowboxchild:hover .artist-frame {
+    opacity: 0.9;
+    box-shadow: 1px 1px 10px 4px alpha(@theme_selected_bg_color, 0.5);
+}
+

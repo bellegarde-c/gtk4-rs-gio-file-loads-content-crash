@@ -1,0 +1,40 @@
+* {
+    outline-width: 0px;
+    text-shadow: none;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.padding-big {
+    padding: 10px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.padding-small {
+    padding: 1px;
+}
+
+.padding-no {
+    padding: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.dark {
+    filter: brightness(60%);
+}
+

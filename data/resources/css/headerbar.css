@@ -1,0 +1,31 @@
+.title {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: small;
+    opacity: 0.7;
+}
+
+.subtitle-small {
+    font-size: x-small;
+    margin-bottom: 5px;
+}
+
+.header-progress {
+    border: none;
+    min-height: 2px;
+    min-width: 2px;
+}
+
+.header-progress progress {
+    border: none;
+    min-height: 2px;
+    min-width: 2px;
+}
+
+.header-progress trough {
+    border: none;
+    min-height: 2px;
+    min-width: 2px;
+}
